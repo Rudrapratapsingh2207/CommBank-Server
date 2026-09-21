@@ -10,5 +10,6 @@ namespace CommBank.Services
         Task<Goal?> GetAsync(string id);
         Task RemoveAsync(string id);
         Task UpdateAsync(string id, Goal updatedGoal);
+        Task UpdateIconAsync(string id, UpdatedIcon updatedIcon);
     }
 }
